@@ -3,10 +3,11 @@ package template
 import (
 	"bytes"
 	"errors"
-	"github.com/arschles/assert"
 	"html/template"
 	"testing"
 	"testing/quick"
+
+	"github.com/arschles/assert"
 )
 
 func createValidAssetFunc(name string, bytes []byte, notFound error) AssetFunc {

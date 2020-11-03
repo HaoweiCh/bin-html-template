@@ -1,8 +1,8 @@
-# go-bindata-html-template
+# bin-html-template
 
 [![GoDoc](https://godoc.org/github.com/arschles/go-bindata-html-template?status.svg)](https://godoc.org/github.com/arschles/go-bindata-html-template)
 
-go-bindata-html-template is a wrapper for Go's built in
+bin-html-template is a wrapper for Go's built in
 [`html/template`](godoc.org/html/template) package to work with template
 contents embedded with the go-bindata tool instead of contents on the
 filesystem See https://github.com/jteeuwen/go-bindata for more information
@@ -14,7 +14,7 @@ Example usage (after running `go-bindata data/...` in your project directory):
 
 ```go
 import (
-  "github.com/arschles/go-bindata-html-template"
+  "github.com/HaoweiCh/bin-html-template"
 )
 
 //...
